@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Furniture</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    
+</head>
+<body>
+
+    <span class="loader"></span>
+
+    <header class="header">
+        <a href="#" class="logo">  </a>
+        <div class="logo">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.QjwejP36Fk8X4px4vRFE8AHaEc&pid=Api&P=0&h=180" height="70px" width="70px">
+        </div>
+      
+      
+        
+        <nav class="navbar">
+            <a href="chairsss.html">Chairs</a>
+            <a href="sofaaaa.html">Sofas</a>
+            <a href="doors.html">Doors</a>
+            <a href="interior .html">Interior Desgin</a>
+            
+    
+           
+        </nav>
+
+    
+        <div class="icons">
+            
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"><span id="cart-count"></span></div>
+            <div class="fas fa-user" id="login-btn"></div>
+            <div class="fa-solid fa-heart"><span id="cart-count"></span></div>
+
+            
+  
+         
+        </div>
+        <form  class="search-form"  >
+            <input type="search" id="search-box" placeholder="search here..."  onkeyup="search()">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+        
+    <div id="cart">
+        
+    </div>
+
+
+        <div class="shopping-cart">
+           
+            <div class="box">
+        <div class="total">
+            <div id="cart-items">
+                <p>cart<span id="cart-tota">-items</span></p>
+            </div> 
+                <a href="buynow.html" class="btn" id="buyNowButton">check out</a>
+                <button onclick="removeItemFromCart()" class="btn">Remove</button>
+
+            </div>
+         
+            </div>
+            </div>
+
+
+        
+        
+        <form action="" class="login-form">
+            <h3>login now</h3>
+           <input type="text" placeholder="UserName" class="box" ><i class="fa-regular fa-user"></i>
+            <input type="email" placeholder="enter your email" class="box"><i class="fa-regular fa-envelope"></i>
+            <input type="password" placeholder="enter your password" class="box"><i class="fa-solid fa-lock"></i>
+            <p>Forget your password <a href="#">click here</a></p>
+            <p>Don't have an account <a href="#">create now</a></p>
+            <input type="submit" value="login now" class="btn">
+        </form>
+           
+           
+            <a href="/signup"><button>login/signup</button></a>
+            
+            
+           
+            
+           
+          
+  
+
+    </header>
+               
+<section class="home" id="home">
+    <div class="">
+    
+        <center><button type="button" style="margin-top:-1500px ; padding-top: 1px;">Buynow</button></center>
+        </div>
+    <img src="https://wallpaperaccess.com/full/2076257.jpg" height="700px" width="100%">
+   
+    
+
+</section>
+
+
+
+</div>
+<div class="products">
+    <div class="product">
+       <a href="view.html"> <img src="https://st.hzcdn.com/simgs/pictures/entryways/beach-avenue-sunshine-coast-home-design-img~817180b302c08145_14-0587-1-8d74cee.jpg"></a>
+
+        <h3>door</h3>
+                <p>$20</p>
+        <button class="add-to-cart" onclick="addItemToCart()">Add to Cart</button>
+        <button class="buynow">Wishlist</button>
+       
+
+    </div>
+
+   
+
+    <div class="product">
+        <img src="https://i.pinimg.com/236x/62/50/e1/6250e19d82aefb40a5cff5719c37ff6c.jpg">
+        <h3>door</h3>
+        <p>$21</p>
+        <button class="add-to-cart" onclick="addItemToCart()">Add to Cart</button>
+        <button class="buynow">Wishlist</button>
+        
+       
+
+    </div>
+
+    <div class="product">
+        <img src="https://st.hzcdn.com/fimgs/pictures/entryways/studio-city-new-construction-home-precise-home-builders-img~8f910e3908d176e9_3142-1-a726ef5-w720-h720-b2-p0.jpg">
+        <h3>door</h3>
+        <p>$21</p>
+        <button class="add-to-cart" onclick="addItemToCart()">Add to Cart</button>
+        <button class="buynow">Wishlist</button>
+        
+       
+
+    </div>
+
+    <div class="product">
+        <img src="https://origin-global.com/Media/Default/advice%20centre/articles/_ASP7281%20copy_LowRes.jpg">
+        <h3>door</h3>
+        <p>$19</p>
+        <button>Add to Cart</button>
+        <button >Wishlist</button>
+        
+       
+
+    </div>
+
+    </div>
+
+    <div class="products">
+
+        <div class="product">
+            <h3>chair</h3>
+            <img src="https://tse3.mm.bing.net/th?id=OIP.R3TnVzTJhv3-ZwTdi3K1VQHaE5&pid=Api&P=0&h=180">
+
+            <p>$10 </p>
+            <button >Add to Cart</button>
+            <button >Wishlist</button>
+            
+           
+    
+        </div>
+    
+        <div class="product">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.HOmNacpjwcksbq35rdKitQHaHa&pid=Api&P=0&h=180" alt="">
+            <h3>chair</h3>
+            <p>$7</p>
+            <button class="add-to-cart" onclick="addItemToCart()">Add to Cart</button>
+            <button class="buynow">Wishlist</button>
+            
+           
+    
+        </div>
+    
+        <div class="product">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.B8eXANdvdvEuZRYJw2gUrAHaHa&pid=Api&P=0&h=180">
+            <h3>chair</h3>
+            <p>$8</p>
+            <button class="add-to-cart" onclick="addItemToCart()">Add to Cart</button>
+            <button class="buynow">Wishlist</button>
+            
+           
+    
+        </div>
+    
+        <div class="product">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.UL1Ma01hDdON5Wjl-Ipo_QHaHa&pid=Api&P=0&h=180">
+            <h3>chair</h3>
+            <p>$8</p>
+            <button class="add-to-cart" onclick="addItemToCart()">Add to Cart</button>
+            <button class="buynow">Wishlist</button>
+            
+           
+    
+        </div>
+    
+        </div>
+    
+        <div class="products">
+
+            <div class="product">
+                <img src="https://tse3.mm.bing.net/th?id=OIP.VYNr6HpneenEWC0nAwvszwHaJ3&pid=Api&P=0&h=180">
+                <h3>Sofa</h3>
+                <p>$8.5</p>
+                <button class="add-to-cart" onclick="addItemToCart()">Add to Cart</button>
+                <button class="buynow">Wishlist</button>
+               
+        
+            </div>
+        
+            <div class="product">
+                <img src="https://tse3.mm.bing.net/th?id=OIP.Djzr7vxtRu5vAeQKknx0DQHaGU&pid=Api&P=0&h=180">
+                <h3>sofa</h3>
+                <p>$7.2</p>
+                <button class="add-to-cart" onclick="addItemToCart()">Add to Cart</button>
+                <button class="buynow">Wishlist</button>
+               
+        
+            </div>
+        
+            <div class="product">
+                <img src="https://tse1.mm.bing.net/th?id=OIP.OXMK4CCWjE4UkiaKuoDnqQHaEt&pid=Api&P=0&h=180">
+                <h3>Sofa</h3>
+                <p>$7.7</p>
+                <button class="add-to-cart" onclick="addItemToCart()">Add to Cart</button>
+                <button class="buynow">Wishlist</button>
+
+                
+        
+            </div>
+        
+            <div class="product">
+                <img src="https://tse4.mm.bing.net/th?id=OIP.lUKrx-mMXlU7CkbQtQ-2SAHaFj&pid=Api&P=0&h=180">
+                <h3>Sofa</h3>
+                <p>$8.3</p>
+                <button class="add-to-cart" onclick="addItemToCart()">Add to Cart</button>
+                <button class="buynow">Wishlist</button>
+               
+        
+            </div>
+        
+            </div>
+        
+            <div class="products">
+
+                <div class="product">
+                    <img src="https://tse4.mm.bing.net/th?id=OIP.dypLymvqVIsSlabJ_m3mcgHaFj&pid=Api&P=0&h=180">
+                    <h3>Interior Design</h3>
+                    <p>$5.6</p>
+                    <button class="add-to-cart" onclick="addItemToCart()">Add to Cart</button>
+                    <button class="buynow">Wishlist</button>
+                   
+            
+                </div>
+            
+                <div class="product">
+                    <img src="https://tse3.mm.bing.net/th?id=OIP.xlTVgTGBByHIGZJvppnfHgHaHa&pid=Api&P=0&h=180">
+                    <h3></h3>
+                    <p>$6.3</p>
+                    <button class="add-to-cart"onclick="addItemToCart()" >Add to Cart</button>
+                
+                    <button class="buynow">Wishlist</button>
+                   
+            
+                </div>
+            
+                <div class="product">
+                    <img src="https://tse3.mm.bing.net/th?id=OIP.0zBE3h3hw6yuHjXueXX2RAHaFP&pid=Api&P=0&h=180">
+                    <h3></h3>
+                    <p>price</p>
+                    <button class="add-to-cart" onclick="addItemToCart()">Add to Cart</button>
+                    <button class="buynow">Wishlist</button>
+                   
+            
+                </div>
+            
+                <div class="product">
+                    <img src="https://tse3.mm.bing.net/th?id=OIP.nUJmxdmcocumxizstXUX0AAAAA&pid=Api&P=0&h=180">
+                    <h3></h3>
+                    <p>price</p>
+                    <button class="add-to-cart" onclick="addItemToCart()">Add to Cart</button>
+                    <button class="buynow">Wishlist</button>
+                   
+            
+                </div>
+            
+                </div>
+            
+                <div class="footer">
+                
+                    <div class="row">
+                        <div class="col">
+                            <a href="#">FAQ</a>
+                            <a href="#">Investor Relations</a>
+                            <a href="#">privacy</a>
+                            <a href="#">speed test</a>
+                                       
+                        </div>
+                        <div class="col">
+                            <a href="#">help center</a>
+                            <a href="#">jobs</a>
+                            <a href="#">cookies preference</a>
+                            <a href="#">Legal information</a>
+                                       
+                        </div>
+                        <div class="col">
+                            <a href="#">Account</a>
+                            <a href="#">Way Buy</a>
+                            <a href="#">coporate information</a>
+                            <a href="#">only on Furni.co</a>
+                                       
+                        </div>
+                        
+                    
+                    </div>
+              
+                    
+                </div>
+
+                <script src="script.js">
+
+                </script>
+                <script>
+                    
+function updateBuyNowButtonVisibility() {
+    var cart = document.getElementById('cart-items');
+    var buyNowButton = document.getElementById('buyNowButton');
+
+    if (cart.children.length === 0) {
+        buyNowButton.style.display = 'none';
+    } else {
+        buyNowButton.style.display = 'block';
+    }
+}
+
+
+function addItemToCart() {
+    var cart = document.getElementById('cart');
+    var newItem = document.createElement('div');
+    newItem.textContent = '';
+    cart.appendChild(newItem);
+
+    
+    updateBuyNowButtonVisibility();
+}
+
+
+function removeItemFromCart() {
+    var cart = document.getElementById('cart-items');
+    if (cart.children.length > 0) {
+        cart.removeChild(cart.lastChild);
+    }
+
+    
+    updateBuyNowButtonVisibility();
+}
+
+
+updateBuyNowButtonVisibility();
+
+
+
+const fadeOut = () => {
+    const loader = document.querySelector(".loader");
+    loader.classList.add("fade-out"); // Assuming you have a "fade-out" class for the animation
+}
+
+window.addEventListener("load", fadeOut);
+
+                </script>
+
+ 
+</body>
+</html>

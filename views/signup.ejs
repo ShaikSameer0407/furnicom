@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    h1 {
+        text-align: center;
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+    form {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        width: 350px;
+    }
+
+    form label {
+        display: block;
+        margin-bottom: 8px;
+        color: #555;
+        font-weight: bold;
+    }
+
+    form input[type="text"],
+    form input[type="email"],
+    form input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        font-size: 14px;
+    }
+
+    form button{
+        width: 100%;
+        padding: 10px;
+        background-color: #00AEEF;
+        border: none;
+        border-radius: 4px;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+
+    form button:hover {
+        background-color: #00AEEF;
+        transform: scale(1.05);
+    }
+
+
+    form span {
+        display: block;
+        margin-top: 10px;
+        text-align: center;
+        color: #777;
+    }
+
+    form span a {
+        color: red;
+        text-decoration: none;
+        font-weight: bold;
+        margin-left: 5px;
+    }
+
+    form span a:hover {
+        text-decoration: underline;
+    }
+
+    form p {
+        color: red;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    </style>
+</head>
+<body>
+
+    <form action="/signup" method="post">
+      <h1>SignUp</h1>
+        <label>Username</label><br>
+        <input type="text" name="username"><br><br>
+        <label>Email</label><br>
+        <input type="email" name="email"><br><br>
+        <label>Password</label><br>
+        <input type="password" name="password"><br><br>
+        <button type="submit" >Submit</button><br>
+        <span>Already have an account?<a href="signin">SignIn</a></span>
+        <p><%=error%></p>
+    </form>
+</body>
+</html>
